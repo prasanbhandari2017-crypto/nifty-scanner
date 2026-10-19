@@ -1,4 +1,4 @@
-.github/workflows/placeholder.txtname: Nifty scanner - EOD refresh
+name: Nifty scanner - EOD refresh
 on:
   push:
     paths: ['nifty_scanner.py', '.github/workflows/scanner_eod.yml']   # runs once automatically when you upload
